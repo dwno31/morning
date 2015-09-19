@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   get 'main/cafeinfo'
 
-  get 'main/cafemenu'
-
+  # get 'main/cafemenu'
+  get ':controller(/:action(/:id))'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
