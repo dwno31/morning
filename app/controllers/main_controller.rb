@@ -3,7 +3,8 @@ class MainController < ApplicationController
     user_sid = params[:sid]  #유저의 심정보를 받아옵니다
     #DB에서 심정보를 조회해서 현재 active 되어있는지 확인하는 코드 삽입
     #if 문을 통해서 active시 영수증 페이지를 보여준다
-    #주문이 active 일시 true, 아닐시 false를 return한다
+    #주문 active 여부와 default 값을 DB에서 찾아서 클라이언트로 리턴해줍니다
+    #주문// active 일시 true, 아닐시 false를 return한다
   end
 
   def cafeinfo
