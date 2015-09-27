@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'faye'
 gem 'thin'
+gem 'gmaps4rails'
 gem 'nifty-generators'
 gem 'therubyracer'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
